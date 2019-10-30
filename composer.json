@@ -1,0 +1,34 @@
+{
+    "name": "r39u1/yii2-cmf2-robots",
+    "description": "Robots module for CMF2",
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        },
+        {
+            "type": "composer",
+            "url": "https://packagist.dev-vps.ru"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "yiisoft/yii2": "~2.0.12",
+        "yii2-developer/yii2-system": "~1.0.0",
+        "yii2-developer/yii2-extend": "~0.0.1 | ^0.1",
+        "yii2-developer/yii2-select2": "*",
+        "yii2-developer/yii2-configure": "~1.3.0"
+    },
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "andrew.regul",
+            "email": "andrew.regul@mail.ru"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "r39u1\\robots\\":"src/"
+        }
+    }
+}
